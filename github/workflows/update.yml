@@ -1,0 +1,29 @@
+name: KBO Stats Auto Update
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+    - cron: '0 6 * * *'
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+jobs:
+  crawl-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install playwright && playwright install chromium && playwright install-deps chromium
+      - run: python crawl.py
+      - run: |
+          git config user.email "action@github.com"
+          git config user.name "GitHub Actions Bot"
+          git add data/stats.json
+          git diff --staged --quiet || git commit -m "⚾ KBO 스탯 자동 업데이트"
+          git push
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
