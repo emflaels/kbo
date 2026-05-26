@@ -1,139 +1,65 @@
 {
-  "updated_at": "2026년 05월 19일 기준",
-  "updated_at_iso": "2026-05-19T00:00:00",
-  "source": "https://www.koreabaseball.com/Record/Main.aspx",
+  "updated_at": "2026년 05월 26일 02:20",
+  "updated_at_iso": "2026-05-26T02:20:24.759532",
+  "source": "https://www.statiz.co.kr",
   "hitter": {
     "avg": {
       "label": "타율",
-      "players": [
-        { "rank": 1, "name": "이우성", "team": "NC", "value": "0.370" },
-        { "rank": 2, "name": "박성한", "team": "SSG", "value": "0.367" },
-        { "rank": 3, "name": "오스틴", "team": "LG", "value": "0.352" },
-        { "rank": 4, "name": "최형우", "team": "삼성", "value": "0.350" },
-        { "rank": 5, "name": "레이예스", "team": "롯데", "value": "0.346" }
-      ]
+      "players": []
     },
     "hr": {
       "label": "홈런",
-      "players": [
-        { "rank": 1, "name": "김도영", "team": "KIA", "value": "12" },
-        { "rank": 2, "name": "최정", "team": "SSG", "value": "11" },
-        { "rank": 2, "name": "힐리어드", "team": "KT", "value": "11" },
-        { "rank": 4, "name": "오스틴", "team": "LG", "value": "9" },
-        { "rank": 5, "name": "강백호", "team": "한화", "value": "8" }
-      ]
+      "players": []
     },
     "rbi": {
       "label": "타점",
-      "players": [
-        { "rank": 1, "name": "강백호", "team": "한화", "value": "41" },
-        { "rank": 2, "name": "에레디아", "team": "SSG", "value": "37" },
-        { "rank": 3, "name": "힐리어드", "team": "KT", "value": "35" },
-        { "rank": 3, "name": "김도영", "team": "KIA", "value": "35" },
-        { "rank": 5, "name": "장성우", "team": "KT", "value": "34" }
-      ]
+      "players": []
     },
     "sb": {
       "label": "도루",
-      "players": [
-        { "rank": 1, "name": "박민우", "team": "NC", "value": "17" },
-        { "rank": 2, "name": "박찬호", "team": "두산", "value": "13" },
-        { "rank": 3, "name": "박해민", "team": "LG", "value": "11" },
-        { "rank": 3, "name": "최원준", "team": "KT", "value": "11" },
-        { "rank": 5, "name": "류지혁", "team": "삼성", "value": "10" }
-      ]
+      "players": []
     },
     "r": {
       "label": "득점",
-      "players": [
-        { "rank": 1, "name": "페라자", "team": "한화", "value": "37" },
-        { "rank": 2, "name": "힐리어드", "team": "KT", "value": "33" },
-        { "rank": 3, "name": "박성한", "team": "SSG", "value": "32" },
-        { "rank": 4, "name": "오스틴", "team": "LG", "value": "31" },
-        { "rank": 5, "name": "김도영", "team": "KIA", "value": "30" }
-      ]
+      "players": []
     },
     "h": {
       "label": "안타",
-      "players": [
-        { "rank": 1, "name": "오스틴", "team": "LG", "value": "58" },
-        { "rank": 2, "name": "박성한", "team": "SSG", "value": "55" },
-        { "rank": 2, "name": "최원준", "team": "KT", "value": "55" },
-        { "rank": 2, "name": "레이예스", "team": "롯데", "value": "55" },
-        { "rank": 5, "name": "강백호", "team": "한화", "value": "53" }
-      ]
+      "players": []
     },
     "obp": {
       "label": "출루율",
-      "players": [
-        { "rank": 1, "name": "박성한", "team": "SSG", "value": "0.476" },
-        { "rank": 2, "name": "페라자", "team": "한화", "value": "0.460" },
-        { "rank": 3, "name": "오스틴", "team": "LG", "value": "0.440" },
-        { "rank": 4, "name": "이우성", "team": "NC", "value": "0.430" },
-        { "rank": 5, "name": "힐리어드", "team": "KT", "value": "0.420" }
-      ]
+      "players": []
+    },
+    "ops": {
+      "label": "OPS",
+      "players": []
     }
   },
   "pitcher": {
     "era": {
       "label": "평균자책점",
-      "players": [
-        { "rank": 1, "name": "원태인", "team": "삼성", "value": "2.15" },
-        { "rank": 2, "name": "곽빈", "team": "두산", "value": "2.48" },
-        { "rank": 3, "name": "하트", "team": "KIA", "value": "2.61" },
-        { "rank": 4, "name": "김광현", "team": "SSG", "value": "2.89" },
-        { "rank": 5, "name": "류현진", "team": "한화", "value": "3.12" }
-      ]
+      "players": []
     },
     "win": {
       "label": "승",
-      "players": [
-        { "rank": 1, "name": "원태인", "team": "삼성", "value": "7" },
-        { "rank": 2, "name": "하트", "team": "KIA", "value": "6" },
-        { "rank": 2, "name": "곽빈", "team": "두산", "value": "6" },
-        { "rank": 4, "name": "김광현", "team": "SSG", "value": "5" },
-        { "rank": 4, "name": "류현진", "team": "한화", "value": "5" }
-      ]
+      "players": []
     },
     "so": {
       "label": "탈삼진",
-      "players": [
-        { "rank": 1, "name": "원태인", "team": "삼성", "value": "72" },
-        { "rank": 2, "name": "하트", "team": "KIA", "value": "68" },
-        { "rank": 3, "name": "김광현", "team": "SSG", "value": "61" },
-        { "rank": 4, "name": "곽빈", "team": "두산", "value": "58" },
-        { "rank": 5, "name": "류현진", "team": "한화", "value": "54" }
-      ]
+      "players": []
     },
     "sv": {
       "label": "세이브",
-      "players": [
-        { "rank": 1, "name": "고우석", "team": "LG", "value": "12" },
-        { "rank": 2, "name": "김택형", "team": "SSG", "value": "10" },
-        { "rank": 3, "name": "정해영", "team": "KIA", "value": "9" },
-        { "rank": 4, "name": "박시영", "team": "롯데", "value": "8" },
-        { "rank": 5, "name": "이용찬", "team": "두산", "value": "7" }
-      ]
+      "players": []
     },
     "hld": {
       "label": "홀드",
-      "players": [
-        { "rank": 1, "name": "함덕주", "team": "LG", "value": "11" },
-        { "rank": 2, "name": "최준용", "team": "KT", "value": "10" },
-        { "rank": 3, "name": "이의리", "team": "KIA", "value": "9" },
-        { "rank": 4, "name": "박치국", "team": "두산", "value": "8" },
-        { "rank": 5, "name": "김진욱", "team": "한화", "value": "7" }
-      ]
+      "players": []
     },
     "whip": {
       "label": "WHIP",
-      "players": [
-        { "rank": 1, "name": "원태인", "team": "삼성", "value": "0.91" },
-        { "rank": 2, "name": "곽빈", "team": "두산", "value": "0.98" },
-        { "rank": 3, "name": "하트", "team": "KIA", "value": "1.02" },
-        { "rank": 4, "name": "김광현", "team": "SSG", "value": "1.08" },
-        { "rank": 5, "name": "류현진", "team": "한화", "value": "1.14" }
-      ]
+      "players": []
     }
   }
 }
