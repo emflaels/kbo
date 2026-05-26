@@ -1,0 +1,61 @@
+{
+  "updated_at": "2026년 05월 26일 01:58",
+  "updated_at_iso": "2026-05-26T01:58:37.188232",
+  "source": "https://www.koreabaseball.com/Record/Main.aspx",
+  "hitter": {
+    "avg": {
+      "label": "타율",
+      "players": []
+    },
+    "hr": {
+      "label": "홈런",
+      "players": []
+    },
+    "rbi": {
+      "label": "타점",
+      "players": []
+    },
+    "sb": {
+      "label": "도루",
+      "players": []
+    },
+    "r": {
+      "label": "득점",
+      "players": []
+    },
+    "h": {
+      "label": "안타",
+      "players": []
+    },
+    "obp": {
+      "label": "출루율",
+      "players": []
+    }
+  },
+  "pitcher": {
+    "era": {
+      "label": "평균자책점",
+      "players": []
+    },
+    "win": {
+      "label": "승",
+      "players": []
+    },
+    "so": {
+      "label": "탈삼진",
+      "players": []
+    },
+    "sv": {
+      "label": "세이브",
+      "players": []
+    },
+    "hld": {
+      "label": "홀드",
+      "players": []
+    },
+    "whip": {
+      "label": "WHIP",
+      "players": []
+    }
+  }
+}
